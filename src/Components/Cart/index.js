@@ -45,6 +45,7 @@ function Cart(props){
 
 
  return<Grid className='app'>
+  <Typography className='align-center' variant='h4'>First Gthub Practice</Typography>
   <Typography className='align-center' variant='h4'>Designed By Anusha</Typography>
     <Typography className='align-center' variant='h4'>Shopping Cart</Typography>
     <Paper elevation={5} className='app-container'>
