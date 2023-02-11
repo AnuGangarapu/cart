@@ -49,6 +49,7 @@ function Cart(props){
   <Typography className='align-center' variant='h4'>Designed By Anusha</Typography>
     <Typography className='align-center' variant='h4'>Shopping Cart</Typography>
     <Typography className='align-center' variant='h4'>Learning Github</Typography>
+    <Typography className='align-center' variant='h4'>1</Typography>
     <Paper elevation={5} className='app-container'>
     <div className="list-container">
       {products.map(eachItem=><Card key={eachItem.id} className='card-container'>
